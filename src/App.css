@@ -1,0 +1,48 @@
+.app{
+  background-color: aquamarine;
+  width: 100%;
+  height: 940px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.container{
+  background-color: beige;
+  width: 500px;
+  padding: 50px;
+  border-radius: 10%;
+  box-shadow: 2px 4px 6px #000;
+}
+.header{
+  text-align: center;
+}
+.header h1{
+  color: blue;
+  text-decoration: underline;
+  text-shadow: 2px 4px 6px black;
+}
+
+.total{
+  background-color: aquamarine;
+  color: green;
+  padding: 10%;
+  border-radius: 5%;
+  text-align: center;
+  box-shadow: 2px 4px 6px #000;
+  margin: 20px;
+}
+.total h2{
+  color: red;
+  font-size: 40px;
+}
+
+.input{
+  display: flex;
+  flex-direction: column;
+  margin: 25px;
+}
+.button{
+  display: flex;
+  justify-content: space-between;
+}
